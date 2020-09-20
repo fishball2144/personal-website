@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import {Link} from "react-router-dom";
 import { Navbar, NavLink, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 
 class Header extends Component{
@@ -36,8 +35,8 @@ class Header extends Component{
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/">
-                                        <span className="fa fa-address-book"></span> Contact Me
+                                    <NavLink href="/learning">
+                                        <span className="fa fa-address-book"></span>Learning Website 
                                     </NavLink>
                                 </NavItem>
                             </Nav>
